@@ -7,10 +7,13 @@
 //
 
 #import "KDAppDelegate.h"
+#import "KDSettingsWindowController.h"
 
 @implementation KDAppDelegate
 
 @synthesize statusItem = _statusItem;
+@synthesize settingsWnd = _settingsWnd;
+
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
@@ -30,5 +33,15 @@
     
 }
 
+
+- (IBAction)showSettings:(id)sender
+{
+    if (self.settingsWnd == nil)
+    {
+        self.settingsWnd = [[KDSettingsWindowController alloc] initWithWindowNibName:@"KDSettingsWindowController"];
+    }
+    [self.settingsWnd showWindow:nil];
+    [NSApp activateIgnoringOtherApps:YES];
+}
 
 @end

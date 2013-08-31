@@ -17,6 +17,8 @@
 		24F06EDC17D234EA004CACD3 /* logo_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 24F06ED917D234EA004CACD3 /* logo_small.png */; };
 		24F06EDD17D234EA004CACD3 /* logo_small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24F06EDA17D234EA004CACD3 /* logo_small@2x.png */; };
 		24F06EE117D234FF004CACD3 /* logo.icns in Resources */ = {isa = PBXBuildFile; fileRef = 24F06EE017D234FF004CACD3 /* logo.icns */; };
+		24F06EEA17D2411F004CACD3 /* KDSettingsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F06EE817D2411F004CACD3 /* KDSettingsWindowController.m */; };
+		24F06EEB17D2411F004CACD3 /* KDSettingsWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24F06EE917D2411F004CACD3 /* KDSettingsWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		24F06ED917D234EA004CACD3 /* logo_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_small.png; sourceTree = "<group>"; };
 		24F06EDA17D234EA004CACD3 /* logo_small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_small@2x.png"; sourceTree = "<group>"; };
 		24F06EE017D234FF004CACD3 /* logo.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = logo.icns; path = ../logo.icns; sourceTree = "<group>"; };
+		24F06EE717D2411F004CACD3 /* KDSettingsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDSettingsWindowController.h; sourceTree = "<group>"; };
+		24F06EE817D2411F004CACD3 /* KDSettingsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDSettingsWindowController.m; sourceTree = "<group>"; };
+		24F06EE917D2411F004CACD3 /* KDSettingsWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KDSettingsWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +99,9 @@
 				24F06ECB17D231DB004CACD3 /* KDAppDelegate.h */,
 				24F06ECC17D231DB004CACD3 /* KDAppDelegate.m */,
 				24F06ECE17D231DB004CACD3 /* MainMenu.xib */,
+				24F06EE717D2411F004CACD3 /* KDSettingsWindowController.h */,
+				24F06EE817D2411F004CACD3 /* KDSettingsWindowController.m */,
+				24F06EE917D2411F004CACD3 /* KDSettingsWindowController.xib */,
 				24F06ED117D231DB004CACD3 /* TaskManager.xcdatamodeld */,
 				24F06EC017D231DB004CACD3 /* Supporting Files */,
 			);
@@ -180,6 +188,7 @@
 				24F06EDC17D234EA004CACD3 /* logo_small.png in Resources */,
 				24F06EDD17D234EA004CACD3 /* logo_small@2x.png in Resources */,
 				24F06EE117D234FF004CACD3 /* logo.icns in Resources */,
+				24F06EEB17D2411F004CACD3 /* KDSettingsWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +202,7 @@
 				24F06EC617D231DB004CACD3 /* main.m in Sources */,
 				24F06ECD17D231DB004CACD3 /* KDAppDelegate.m in Sources */,
 				24F06ED317D231DB004CACD3 /* TaskManager.xcdatamodeld in Sources */,
+				24F06EEA17D2411F004CACD3 /* KDSettingsWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
