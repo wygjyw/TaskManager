@@ -14,6 +14,9 @@
 		24F06ECD17D231DB004CACD3 /* KDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F06ECC17D231DB004CACD3 /* KDAppDelegate.m */; };
 		24F06ED017D231DB004CACD3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24F06ECE17D231DB004CACD3 /* MainMenu.xib */; };
 		24F06ED317D231DB004CACD3 /* TaskManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24F06ED117D231DB004CACD3 /* TaskManager.xcdatamodeld */; };
+		24F06EDC17D234EA004CACD3 /* logo_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 24F06ED917D234EA004CACD3 /* logo_small.png */; };
+		24F06EDD17D234EA004CACD3 /* logo_small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24F06EDA17D234EA004CACD3 /* logo_small@2x.png */; };
+		24F06EE117D234FF004CACD3 /* logo.icns in Resources */ = {isa = PBXBuildFile; fileRef = 24F06EE017D234FF004CACD3 /* logo.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		24F06ECC17D231DB004CACD3 /* KDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDAppDelegate.m; sourceTree = "<group>"; };
 		24F06ECF17D231DB004CACD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		24F06ED217D231DB004CACD3 /* TaskManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskManager.xcdatamodel; sourceTree = "<group>"; };
+		24F06ED917D234EA004CACD3 /* logo_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_small.png; sourceTree = "<group>"; };
+		24F06EDA17D234EA004CACD3 /* logo_small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_small@2x.png"; sourceTree = "<group>"; };
+		24F06EE017D234FF004CACD3 /* logo.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = logo.icns; path = ../logo.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,7 @@
 		24F06EBF17D231DB004CACD3 /* TaskManager */ = {
 			isa = PBXGroup;
 			children = (
+				24F06EDF17D234F0004CACD3 /* Logo */,
 				24F06ECB17D231DB004CACD3 /* KDAppDelegate.h */,
 				24F06ECC17D231DB004CACD3 /* KDAppDelegate.m */,
 				24F06ECE17D231DB004CACD3 /* MainMenu.xib */,
@@ -103,6 +110,16 @@
 				24F06EC817D231DB004CACD3 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24F06EDF17D234F0004CACD3 /* Logo */ = {
+			isa = PBXGroup;
+			children = (
+				24F06EE017D234FF004CACD3 /* logo.icns */,
+				24F06ED917D234EA004CACD3 /* logo_small.png */,
+				24F06EDA17D234EA004CACD3 /* logo_small@2x.png */,
+			);
+			name = Logo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +177,9 @@
 				24F06EC417D231DB004CACD3 /* InfoPlist.strings in Resources */,
 				24F06ECA17D231DB004CACD3 /* Credits.rtf in Resources */,
 				24F06ED017D231DB004CACD3 /* MainMenu.xib in Resources */,
+				24F06EDC17D234EA004CACD3 /* logo_small.png in Resources */,
+				24F06EDD17D234EA004CACD3 /* logo_small@2x.png in Resources */,
+				24F06EE117D234FF004CACD3 /* logo.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
