@@ -19,6 +19,7 @@
 		24F06EE117D234FF004CACD3 /* logo.icns in Resources */ = {isa = PBXBuildFile; fileRef = 24F06EE017D234FF004CACD3 /* logo.icns */; };
 		24F06EEA17D2411F004CACD3 /* KDSettingsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F06EE817D2411F004CACD3 /* KDSettingsWindowController.m */; };
 		24F06EEB17D2411F004CACD3 /* KDSettingsWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24F06EE917D2411F004CACD3 /* KDSettingsWindowController.xib */; };
+		24F06EEE17D2440C004CACD3 /* KDTaskItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F06EED17D2440C004CACD3 /* KDTaskItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,8 @@
 		24F06EE717D2411F004CACD3 /* KDSettingsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDSettingsWindowController.h; sourceTree = "<group>"; };
 		24F06EE817D2411F004CACD3 /* KDSettingsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDSettingsWindowController.m; sourceTree = "<group>"; };
 		24F06EE917D2411F004CACD3 /* KDSettingsWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KDSettingsWindowController.xib; sourceTree = "<group>"; };
+		24F06EEC17D2440C004CACD3 /* KDTaskItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDTaskItem.h; sourceTree = "<group>"; };
+		24F06EED17D2440C004CACD3 /* KDTaskItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDTaskItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,8 @@
 				24F06EE717D2411F004CACD3 /* KDSettingsWindowController.h */,
 				24F06EE817D2411F004CACD3 /* KDSettingsWindowController.m */,
 				24F06EE917D2411F004CACD3 /* KDSettingsWindowController.xib */,
+				24F06EEC17D2440C004CACD3 /* KDTaskItem.h */,
+				24F06EED17D2440C004CACD3 /* KDTaskItem.m */,
 				24F06ED117D231DB004CACD3 /* TaskManager.xcdatamodeld */,
 				24F06EC017D231DB004CACD3 /* Supporting Files */,
 			);
@@ -203,6 +208,7 @@
 				24F06ECD17D231DB004CACD3 /* KDAppDelegate.m in Sources */,
 				24F06ED317D231DB004CACD3 /* TaskManager.xcdatamodeld in Sources */,
 				24F06EEA17D2411F004CACD3 /* KDSettingsWindowController.m in Sources */,
+				24F06EEE17D2440C004CACD3 /* KDTaskItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
